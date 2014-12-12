@@ -1,0 +1,39 @@
+---
+abstract: 'What is I<your> API?'
+author:
+  - 'Arun Prasaad <arunbear@cpan.org>'
+build_requires:
+  Test::Lib: '0.002'
+  Test::Most: '0.34'
+configure_requires:
+  Module::Build::Tiny: '0.039'
+dynamic_config: 0
+generated_by: 'Dist::Milla version v1.0.5, Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.141520'
+license: gpl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Minions
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+requires:
+  Exception::Class: '1.38'
+  List::MoreUtils: '0.33'
+  Package::Stash: '0.36'
+  Params::Validate: '1.10'
+  Sub::Name: '0.09'
+  perl: '5.008005'
+resources:
+  bugtracker: https://github.com/arunbear/Minions/issues
+  homepage: https://github.com/arunbear/Minions
+  repository: https://github.com/arunbear/Minions.git
+version: '0.000003'
+x_contributors:
+  - 'Arun Prasaad <arunbear@gmail.com>'
+  - 'arunbear <arunbear@gmail.com>'
