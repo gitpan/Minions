@@ -17,7 +17,7 @@ use Exception::Class (
     'Minions::Error::RoleConflict',
 );
 
-our $VERSION = 0.000_002;
+our $VERSION = 0.000_003;
 
 my $Class_count = 0;
 my %Bound_implementation_of;
